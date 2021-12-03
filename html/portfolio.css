@@ -1,0 +1,12 @@
+.photogrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 16px;
+}
+
+.photogrid img {
+    max-width: 100%;
+    max-height: 100%;
+    border: 2px solid hsl(355, 26%, 57%);
+    border-radius: 4px;
+}

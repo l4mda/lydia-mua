@@ -1,0 +1,113 @@
+/* whole document */
+
+/* Color Palette */
+/* color 1: #e1ba66     hsl(41, 67%, 64%)      gold */
+/* color 2: #ae757a     hsl(355, 26%, 57%)      dark pink */
+/* color 3: #f5c3c7     hsl(355, 71%, 86%)      light pink */
+
+
+html {
+    background-image: url('images/montage-dark.png');
+    background-repeat: repeat-y;
+    background-position: top center;
+    background-color: black;
+}
+
+/* header */
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+header #logo {
+    flex: 1 200px;
+    background-image: url('images/circle-logo.png');
+    height: 200px;
+    width: 200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+header #header-text {
+    flex: 2 400px;
+}
+
+header #header-text h1 {
+    font-family: 'Seaweed Script', cursive;
+    font-size: 48px;
+    color: #f5c3c7;
+}
+
+header #header-text h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 28px;
+    color: #f5c3c7;
+}
+
+/* navbar */
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 0;
+    list-style-type: none;
+    margin: 0 0 24px 0;
+}
+
+nav ul li {
+    width: 100%;
+    text-align: center;
+    margin: 0px 8px;
+}
+
+nav ul li a {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: hsl(41, 67%, 64%);
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    border: 2px solid hsl(355, 26%, 57%);
+    border-radius: 20px;
+}
+
+nav ul li a:hover {
+    background: hsl(355, 26%, 57%);
+}
+
+/* main */
+
+main {
+    border: 2px solid hsl(355, 26%, 57%);
+    border-radius: 20px;
+    margin: 0 8px;
+    padding: 24px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    color: hsl(355, 71%, 86%);
+}
+
+/* footer */
+
+footer {
+    border: 2px solid hsl(355, 26%, 57%);
+    border-radius: 20px;
+    padding: 0px 24px;
+    margin: 24px 8px 0px 8px;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    color: hsl(355, 71%, 86%);
+}
+
+footer p {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+}
+
+footer a {
+    color: hsl(41, 67%, 64%);
+}

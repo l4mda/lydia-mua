@@ -1,0 +1,27 @@
+/* Contact info */
+
+main address li {
+    margin-left: 32px;
+}
+
+main address a {
+    text-decoration: none;
+    color: hsl(41, 67%, 64%);
+    font-size: 24px;
+}
+
+main address a:hover {
+    text-decoration: underline;
+}
+
+main address li#email {
+    list-style-image: url('images/mail-small.png');
+}
+
+main address li#tel {
+    list-style-image: url('images/phone-small.png');
+}
+
+main address li#fb {
+    list-style-image: url('images/facebook-small.png');
+}
